@@ -1,0 +1,1911 @@
+# Doxyfile 1.3.7-KDevelop
+
+#---------------------------------------------------------------------------
+# Project related configuration options
+#---------------------------------------------------------------------------
+PROJECT_NAME           = tribok.kdevelop
+PROJECT_NUMBER         = $VERSION$
+OUTPUT_DIRECTORY       = 
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = English
+USE_WINDOWS_ENCODING   = NO
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = YES
+ABBREVIATE_BRIEF       = "The $name class" \
+                         "The $name widget" \
+                         "The $name file" \
+                         is \
+                         provides \
+                         specifies \
+                         contains \
+                         represents \
+                         a \
+                         an \
+                         the
+ALWAYS_DETAILED_SEC    = NO
+INLINE_INHERITED_MEMB  = NO
+FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH        = /home/dikatlon/
+STRIP_FROM_INC_PATH    = 
+SHORT_NAMES            = NO
+JAVADOC_AUTOBRIEF      = NO
+MULTILINE_CPP_IS_BRIEF = NO
+DETAILS_AT_TOP         = NO
+INHERIT_DOCS           = YES
+DISTRIBUTE_GROUP_DOC   = NO
+TAB_SIZE               = 8
+ALIASES                = 
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
+SUBGROUPING            = YES
+#---------------------------------------------------------------------------
+# Build related configuration options
+#---------------------------------------------------------------------------
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = NO
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_FRIEND_COMPOUNDS  = NO
+HIDE_IN_BODY_DOCS      = NO
+INTERNAL_DOCS          = NO
+CASE_SENSE_NAMES       = YES
+HIDE_SCOPE_NAMES       = NO
+SHOW_INCLUDE_FILES     = YES
+INLINE_INFO            = YES
+SORT_MEMBER_DOCS       = YES
+SORT_BRIEF_DOCS        = NO
+SORT_BY_SCOPE_NAME     = NO
+GENERATE_TODOLIST      = YES
+GENERATE_TESTLIST      = YES
+GENERATE_BUGLIST       = YES
+GENERATE_DEPRECATEDLIST= YES
+ENABLED_SECTIONS       = 
+MAX_INITIALIZER_LINES  = 30
+SHOW_USED_FILES        = YES
+#---------------------------------------------------------------------------
+# configuration options related to warning and progress messages
+#---------------------------------------------------------------------------
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_FORMAT            = "$file:$line: $text"
+WARN_LOGFILE           = 
+#---------------------------------------------------------------------------
+# configuration options related to the input files
+#---------------------------------------------------------------------------
+INPUT                  = /home/dikatlon/Programmering/C++/tribok
+FILE_PATTERNS          = *.c \
+                         *.cc \
+                         *.cxx \
+                         *.cpp \
+                         *.c++ \
+                         *.java \
+                         *.ii \
+                         *.ixx \
+                         *.ipp \
+                         *.i++ \
+                         *.inl \
+                         *.h \
+                         *.hh \
+                         *.hxx \
+                         *.hpp \
+                         *.h++ \
+                         *.idl \
+                         *.odl \
+                         *.cs \
+                         *.php \
+                         *.php3 \
+                         *.inc \
+                         *.m \
+                         *.mm \
+                         *.C \
+                         *.CC \
+                         *.C++ \
+                         *.II \
+                         *.I++ \
+                         *.H \
+                         *.HH \
+                         *.H++ \
+                         *.CS \
+                         *.PHP \
+                         *.PHP3 \
+                         *.M \
+                         *.MM \
+                         *.C \
+                         *.H \
+                         *.tlh \
+                         *.diff \
+                         *.patch \
+                         *.moc \
+                         *.xpm \
+                         *.dox
+RECURSIVE              = yes
+EXCLUDE                = 
+EXCLUDE_SYMLINKS       = NO
+EXCLUDE_PATTERNS       = 
+EXAMPLE_PATH           = 
+EXAMPLE_PATTERNS       = *
+EXAMPLE_RECURSIVE      = NO
+IMAGE_PATH             = 
+INPUT_FILTER           = 
+FILTER_SOURCE_FILES    = NO
+#---------------------------------------------------------------------------
+# configuration options related to source browsing
+#---------------------------------------------------------------------------
+SOURCE_BROWSER         = NO
+INLINE_SOURCES         = NO
+STRIP_CODE_COMMENTS    = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = YES
+#---------------------------------------------------------------------------
+# configuration options related to the alphabetical class index
+#---------------------------------------------------------------------------
+ALPHABETICAL_INDEX     = NO
+COLS_IN_ALPHA_INDEX    = 5
+IGNORE_PREFIX          = 
+#---------------------------------------------------------------------------
+# configuration options related to the HTML output
+#---------------------------------------------------------------------------
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_HEADER            = 
+HTML_FOOTER            = 
+HTML_STYLESHEET        = 
+HTML_ALIGN_MEMBERS     = YES
+GENERATE_HTMLHELP      = NO
+CHM_FILE               = 
+HHC_LOCATION           = 
+GENERATE_CHI           = NO
+BINARY_TOC             = NO
+TOC_EXPAND             = NO
+DISABLE_INDEX          = NO
+ENUM_VALUES_PER_LINE   = 4
+GENERATE_TREEVIEW      = NO
+TREEVIEW_WIDTH         = 250
+#---------------------------------------------------------------------------
+# configuration options related to the LaTeX output
+#---------------------------------------------------------------------------
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+LATEX_CMD_NAME         = latex
+MAKEINDEX_CMD_NAME     = makeindex
+COMPACT_LATEX          = NO
+PAPER_TYPE             = a4wide
+EXTRA_PACKAGES         = 
+LATEX_HEADER           = 
+PDF_HYPERLINKS         = NO
+USE_PDFLATEX           = NO
+LATEX_BATCHMODE        = NO
+LATEX_HIDE_INDICES     = NO
+#---------------------------------------------------------------------------
+# configuration options related to the RTF output
+#---------------------------------------------------------------------------
+GENERATE_RTF           = NO
+RTF_OUTPUT             = rtf
+COMPACT_RTF            = NO
+RTF_HYPERLINKS         = NO
+RTF_STYLESHEET_FILE    = 
+RTF_EXTENSIONS_FILE    = 
+#---------------------------------------------------------------------------
+# configuration options related to the man page output
+#---------------------------------------------------------------------------
+GENERATE_MAN           = NO
+MAN_OUTPUT             = man
+MAN_EXTENSION          = .3
+MAN_LINKS              = NO
+#---------------------------------------------------------------------------
+# configuration options related to the XML output
+#---------------------------------------------------------------------------
+GENERATE_XML           = yes
+XML_OUTPUT             = xml
+XML_SCHEMA             = 
+XML_DTD                = 
+XML_PROGRAMLISTING     = YES
+#---------------------------------------------------------------------------
+# configuration options for the AutoGen Definitions output
+#---------------------------------------------------------------------------
+GENERATE_AUTOGEN_DEF   = NO
+#---------------------------------------------------------------------------
+# configuration options related to the Perl module output
+#---------------------------------------------------------------------------
+GENERATE_PERLMOD       = NO
+PERLMOD_LATEX          = NO
+PERLMOD_PRETTY         = YES
+PERLMOD_MAKEVAR_PREFIX = 
+#---------------------------------------------------------------------------
+# Configuration options related to the preprocessor   
+#---------------------------------------------------------------------------
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = NO
+EXPAND_ONLY_PREDEF     = NO
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           = 
+INCLUDE_FILE_PATTERNS  = 
+PREDEFINED             = 
+EXPAND_AS_DEFINED      = 
+SKIP_FUNCTION_MACROS   = YES
+#---------------------------------------------------------------------------
+# Configuration::additions related to external references   
+#---------------------------------------------------------------------------
+TAGFILES               = 
+GENERATE_TAGFILE       = tribok.tag
+ALLEXTERNALS           = NO
+EXTERNAL_GROUPS        = YES
+PERL_PATH              = /usr/bin/perl
+#---------------------------------------------------------------------------
+# Configuration options related to the dot tool   
+#---------------------------------------------------------------------------
+CLASS_DIAGRAMS         = YES
+HIDE_UNDOC_RELATIONS   = YES
+HAVE_DOT               = NO
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+UML_LOOK               = NO
+TEMPLATE_RELATIONS     = NO
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = NO
+GRAPHICAL_HIERARCHY    = YES
+DOT_IMAGE_FORMAT       = png
+DOT_PATH               = 
+DOTFILE_DIRS           = 
+MAX_DOT_GRAPH_WIDTH    = 1024
+MAX_DOT_GRAPH_HEIGHT   = 1024
+MAX_DOT_GRAPH_DEPTH    = 1000
+GENERATE_LEGEND        = YES
+DOT_CLEANUP            = YES
+#---------------------------------------------------------------------------
+# Configuration::additions related to the search engine   
+#---------------------------------------------------------------------------
+SEARCHENGINE           = NO
+#############################################################################
+# Makefile for building: tribok
+# Generated by qmake (2.00a) (Qt 4.0.0-b2): (Some things modified by Joel Mandell)Thu Mar 31 00:32:12 2005
+# Project:  tribok.pro
+# Template: app
+# Command: /usr/bin/qmake -o Makefile tribok.pro
+#############################################################################
+
+####### Compiler, tools and options
+
+CC            = gcc
+CXX           = g++
+LEX           = flex
+YACC          = yacc
+DEFINES       = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SHARED
+CFLAGS        = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)
+CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)
+LEXFLAGS      = 
+YACCFLAGS     = -d
+INCPATH       = -I/usr/lib/qt/mkspecs/default -I. -I/usr/lib/qt-3.3.3/include/QtGui -I/usr/lib/qt-3.3.3/include/QtCore -I/usr/lib/qt-3.3.3/include -I. -I. -I.
+LINK          = g++
+LFLAGS        = -Wl,-rpath,/usr/lib/qt/lib
+LIBS          = $(SUBLIBS) -L/usr/lib/qt/lib -lQtCore -lQtGui -lQtSql -lpthread
+AR            = ar cqs
+RANLIB        = 
+QMAKE         = /usr/bin/qmake
+TAR           = tar -cf
+COMPRESS      = gzip -9f
+COPY          = cp -f
+COPY_FILE     = $(COPY)
+COPY_DIR      = $(COPY) -r
+INSTALL_FILE  = $(COPY_FILE)
+INSTALL_DIR   = $(COPY_DIR)
+DEL_FILE      = rm -f
+SYMLINK       = ln -sf
+DEL_DIR       = rmdir
+MOVE          = mv -f
+CHK_DIR_EXISTS= test -d
+MKDIR         = mkdir -p
+
+####### Output directory
+
+OBJECTS_DIR   = ./
+
+####### Files
+
+SOURCES       = main.cpp \
+		mainwindow.cpp moc_mainwindow.cpp
+OBJECTS       = main.o \
+		mainwindow.o \
+		moc_mainwindow.o
+DIST          = /usr/lib/qt-3.3.3/mkspecs/qconfig.pri \
+		/usr/lib/qt-3.3.3/mkspecs/features/qt_config.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/exclusive_builds.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/default_pre.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/debug.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/default_post.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/warn_on.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/unix/qt.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/unix/thread.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/moc.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/resources.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/uic.prf \
+		tribok.pro
+QMAKE_TARGET  = tribok
+DESTDIR       = 
+TARGET        = tribok
+
+first: all
+####### Implicit rules
+
+.SUFFIXES: .c .o .cpp .cc .cxx .C
+
+.cpp.o:
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+.cc.o:
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+.cxx.o:
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+.C.o:
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+.c.o:
+	$(CC) -c $(CFLAGS) $(INCPATH) -o $@ $<
+
+####### Build rules
+
+all: Makefile $(TARGET)
+
+$(TARGET):  $(OBJECTS)  
+	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
+
+Makefile: tribok.pro  /usr/lib/qt/mkspecs/default/qmake.conf /usr/lib/qt/qt.conf \
+	/usr/lib/qt-3.3.3/mkspecs/qconfig.pri \
+		/usr/lib/qt-3.3.3/mkspecs/features/qt_config.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/exclusive_builds.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/default_pre.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/debug.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/default_post.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/warn_on.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/unix/qt.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/unix/thread.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/moc.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/resources.prf \
+		/usr/lib/qt-3.3.3/mkspecs/features/uic.prf \
+		/usr/lib/qt/lib/libQtCore_debug.prl \
+		/usr/lib/qt/lib/libQtGui_debug.prl
+	$(QMAKE) -o Makefile tribok.pro
+/usr/lib/qt-3.3.3/mkspecs/qconfig.pri:
+/usr/lib/qt-3.3.3/mkspecs/features/qt_config.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/exclusive_builds.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/default_pre.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/debug.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/default_post.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/warn_on.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/unix/qt.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/unix/thread.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/moc.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/resources.prf:
+/usr/lib/qt-3.3.3/mkspecs/features/uic.prf:
+/usr/lib/qt/lib/libQtCore_debug.prl:
+/usr/lib/qt/lib/libQtGui_debug.prl:
+qmake:  FORCE
+	@$(QMAKE) -o Makefile tribok.pro
+
+dist: 
+	@$(CHK_DIR_EXISTS) ".tmp/tribok" || $(MKDIR) ".tmp/tribok"
+	$(COPY_FILE) --parents $(SOURCES) $(DIST) .tmp/tribok/ && $(COPY_FILE) --parents FORMS$(DIST) .tmp/tribok/ && $(COPY_FILE) --parents HEADERS$(DIST) .tmp/tribok/ && $(COPY_FILE) --parents RESOURCES$(DIST) .tmp/tribok/ && $(COPY_FILE) --parents IMAGES$(DIST) .tmp/tribok/ && $(COPY_FILE) --parents SOURCES$(DIST) .tmp/tribok/ && (cd `dirname .tmp/tribok` && $(TAR) tribok.tar tribok && $(COMPRESS) tribok.tar) && $(MOVE) `dirname .tmp/tribok`/tribok.tar.gz . && $(DEL_FILE) -r .tmp/tribok
+
+
+yaccclean:
+lexclean:
+clean:compiler_clean 
+	-$(DEL_FILE) $(OBJECTS)
+	-$(DEL_FILE) *~ core *.core
+
+
+####### Sub-libraries
+
+distclean: clean
+	-$(DEL_FILE) $(TARGET) 
+	-$(DEL_FILE) Makefile
+
+
+/usr/lib/qt-3.3.3/bin/moc:
+	(cd "$(QTDIR)/src/moc" && $(MAKE))
+
+mocclean: compiler_moc_header_clean compiler_moc_source_clean
+
+mocables: compiler_moc_header_make_all compiler_moc_source_make_all
+
+compiler_uic_make_all:
+compiler_uic_clean:
+compiler_moc_header_make_all: moc_mainwindow.cpp
+compiler_moc_header_clean:
+	-$(DEL_FILE) moc_mainwindow.cpp
+moc_mainwindow.cpp: mainwindow.h /usr/lib/qt-3.3.3/bin/moc
+	/usr/lib/qt/bin/moc $(DEFINES) $(INCPATH) mainwindow.h -o moc_mainwindow.cpp
+
+compiler_rcc_make_all:
+compiler_rcc_clean:
+compiler_image_collection_make_all:
+compiler_image_collection_clean:
+	-$(DEL_FILE) qmake_image_collection.cpp
+compiler_moc_source_make_all:
+compiler_moc_source_clean:
+compiler_clean: compiler_uic_clean compiler_moc_header_clean compiler_rcc_clean compiler_image_collection_clean compiler_moc_source_clean 
+
+####### Compile
+
+main.o: main.cpp mainwindow.h
+
+mainwindow.o: mainwindow.cpp mainwindow.h \
+		frmSettings.h \
+		frmLoadData.h
+
+moc_mainwindow.o: moc_mainwindow.cpp 
+
+####### Install
+
+install:   FORCE
+
+uninstall:   FORCE
+
+FORCE:
+
+#include <QtGui>
+
+frmAbout::frmAbout(QWidget *parent)
+	:QDialog(parent)
+{
+
+ txtAbout = new QTextEdit("",this);
+ txtAbout->setGeometry(10,10,300,300);
+
+ this->setWindowTitle("Om tribok 0.0.0.5");
+ init();
+ 
+}
+
+void frmAbout::init()
+{
+
+ txtAbout->setHtml("Tribok 0.0.0.5<br /><h4>Skapat av:</h4><br />Joel Mandell<br />Jonas Bjˆrk");
+ 
+}
+#include <QtGui>
+#include <QtCore>
+#include <QtSql/QSqlDatabase>    // NOTERA DENNA
+#include <QDialog>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlDriver>
+#include <QString>
+#include <QApplication>
+#include <QMessageBox>
+#include <QPushButton>
+#include <QLineEdit>
+#include <QListWidgetItem>
+
+/*Collect the project item*/
+QString foretag[100];
+QString orgnr[100];
+
+frmLoadData::frmLoadData()
+{
+ /*Load-widget*/
+ cmdLoad = new QPushButton("Ladda budget",this);
+ cmdLoad->setGeometry(10,330,100,30);
+  connect(cmdLoad, SIGNAL( clicked() ), this, SLOT( loadPro() ));
+ 
+ /*Project box widget*/
+ int i=-1;
+ QString sql;
+ QSqlDatabase db = QSqlDatabase::addDatabase( "QMYSQL" );
+ db.setHostName( "localhost" );
+ db.setDatabaseName( "tribok" );
+ db.setUserName( "root" );
+ db.setPassword( "dbd96fin" );
+ bool ok = db.open();
+    
+  if(!ok) 
+  { 
+  qDebug("Kopplingen misslyckades"); 
+  QMessageBox::warning(this, "Fel", "Kunnde inte koppla mot databas, har du st‰llt in r‰tt inst‰llningar fˆr databasen?"); 
+  } else {
+  qDebug("yeah");
+  }
+  
+  proFiles = new QListWidget(this);
+  proFiles->setViewMode(QListView::ListMode);	
+ 
+  /*Sql questions*/
+  QString getForetagN="SELECT namn FROM foretag";
+  QString getForetagO="SELECT orgnr FROM foretag";
+  
+  /*Executing the sql question*/
+  QSqlQuery query(getForetagN);
+    
+  if(query.isActive()) 
+  {
+   
+    while (query.next()) 
+    {
+     i++;     
+     QString buffer = query.value(0).toString();
+     foretag[i]=buffer;
+     QListWidgetItem *IproFiles = new QListWidgetItem;
+     IproFiles->setText(buffer);
+     proFiles->insertItem(i,IproFiles);
+    }
+    
+  }   	    
+  
+  QSqlQuery query1(getForetagO);
+    
+  if(query1.isActive()) 
+  {
+   
+    while (query1.next()) 
+    {
+     i++;
+     QString buffer = query1.value(0).toString();
+     orgnr[i]=buffer;
+    }
+    
+  }   	    
+ db.close();    
+ 
+ 
+ proFiles->setGeometry(10,10,300,300);
+         
+ init();
+ this->setWindowTitle("Ladda projekt filer");
+ this->setGeometry(100,100,420,420);
+}
+
+void frmLoadData::loadPro()
+{
+
+ int i = proFiles->currentRow();
+ proFiles->setCurrentRow(i);
+ QMessageBox::information(this,"ad",foretag[i]+"   "+orgnr[i]);	
+ 
+}
+
+void frmLoadData::init() {
+ 
+  
+}
+
+void frmLoadData::bytN()
+{
+}
+
+/*Tribok 0.0.0.1
+
+Joel Mandell
+Jonas Bjˆrk
+
+QT4 License
+*/
+#include <QtGui>
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlDriver>
+
+TabDialog::TabDialog(QWidget *parent)
+        : QDialog(parent)
+{
+ this->setWindowTitle("Inst‰llningar");
+ tabWidget = new QTabWidget(this);
+ tabWidget->setGeometry(5,5,400,400);
+ tabWidget->addTab(new databasTab(), tr("Databas"));
+ tabWidget->addTab(new updateTab(), tr("Uppdateringar"));
+ tabWidget->addTab(new layoutTab(), tr("Layout"));
+}
+
+databasTab::databasTab(QWidget *parent)
+        : QWidget(parent)
+{
+
+ /*Test connection-widget*/	
+ cmdTestConn = new QPushButton("Testa anslutning",this);
+ cmdTestConn->setGeometry(10,180,150,30);
+  connect(cmdTestConn, SIGNAL(clicked()),this, SLOT(testConn()));
+	
+ /*Save settings-widget*/	
+ cmdSaveSettings = new QPushButton("Spara",this);
+ cmdSaveSettings->setGeometry(10,220,150,30);
+  connect(cmdSaveSettings, SIGNAL(clicked()),this, SLOT(saveConn()));
+
+ /*Server-form*/	
+ lblServer = new QLabel("Server:",this);
+ lblServer->setGeometry(10,5,150,15);
+ txtServer = new QLineEdit("",this);
+ txtServer->setGeometry(10,23,150,20);
+    
+ /*Databas-form*/
+ lblData = new QLabel("Databas:",this);
+ lblData->setGeometry(10,46,150,15);
+ txtData = new QLineEdit("",this);
+ txtData->setGeometry(10,66,150,20);   
+ 
+ /*User-form*/
+ lblUser = new QLabel("Anv‰ndarnamn:",this);
+ lblUser->setGeometry(10,88,150,15);
+ txtUser = new QLineEdit("",this);
+ txtUser->setGeometry(10,106,150,20);	
+ 
+ /*User-form*/
+ lblPass = new QLabel("Lˆsenord:",this);
+ lblPass->setGeometry(10,128,150,15);
+ txtPass = new QLineEdit("",this);
+ txtPass->setGeometry(10,146,150,20);
+ 
+ /*frmSettings-property*/
+ this->setWindowTitle(tr("Inst‰llningar"));
+ this->setGeometry(100,100,300,300);
+
+ init();	
+    
+}
+
+updateTab::updateTab(QWidget *parent)
+        : QWidget(parent)
+{
+}
+
+layoutTab::layoutTab(QWidget *parent)
+        : QWidget(parent)
+{
+}
+
+void databasTab::exit()
+{
+ qWarning("Nee, de fÂr ni inte gˆra");
+}
+
+void databasTab::init()
+{
+databasTab::exit();
+QString settings[10];
+int i=0;
+ 
+ QFile file("output");
+ 
+  if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+   return;
+   
+  QTextStream in(&file);
+   while (!file.atEnd()) 
+   {
+    i++;
+    QString content=in.readLine();
+    settings[i]=content;
+   }
+    
+ txtServer->setText( settings[1] );
+ txtData->setText( settings[2] ); 	
+ txtUser->setText( settings[3] );
+ txtPass->setText( settings[4] );
+
+}
+
+void databasTab::showSettings()
+{
+
+}
+
+void databasTab::testConn()
+{
+ QSqlDatabase db = QSqlDatabase::addDatabase( "QMYSQL" );
+ db.setHostName(txtServer->text());
+ db.setDatabaseName(txtData->text());
+ db.setUserName(txtUser->text());
+ db.setPassword(txtPass->text());
+ bool ok = db.open();
+    
+  if(ok==false) 
+  { 
+   QMessageBox::warning(this, "Testar anslutning","Anslutningen misslyckades"); 
+  } else {
+   QMessageBox::information(this, "Testar anslutning","Anslutningen lyckades");
+  }
+	
+}
+
+void databasTab::saveConn()
+{
+
+ QFile data("output");
+  if (data.open(QFile::WriteOnly | QFile::Truncate)) 
+  {
+   QTextStream out(&data);
+   out << txtServer->text() << endl << txtData->text() << endl << txtUser->text() << endl << txtPass->text() << endl;
+
+  }
+
+}
+
+#include <QtGui>
+#include <QMessageBox>
+#include <QDialog>
+#include <QtSql/QSqlDatabase>    // NOTERA DENNA
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlDriver>
+#include <QString>
+
+
+    TabDialog::TabDialog(const QString &fileName, QWidget *parent)
+        : QDialog(parent)
+    {
+        QFileInfo fileInfo(fileName);
+
+        tabWidget = new QTabWidget(this);
+        tabWidget->addTab(new GeneralTab(fileInfo), tr("General"));
+        tabWidget->addTab(new PermissionsTab(fileInfo), tr("Permissions"));
+        tabWidget->addTab(new ApplicationsTab(fileInfo), tr("Applications"));
+    }
+
+frmSettings::frmSettings(QWidget *parent): QDialog(parent)
+{
+
+    //QString connSettings[0]="null";	
+    cmdTestConn = new QPushButton("Testa anslutning",this);
+    	
+    cmdTestConn->setGeometry(10,180,150,30);
+    connect(cmdTestConn, SIGNAL(clicked()),this, SLOT(testConn()));
+
+    cmdSaveSettings = new QPushButton("Spara",this);
+    cmdSaveSettings->setGeometry(10,210,150,30);
+    connect(cmdSaveSettings, SIGNAL(clicked()),this, SLOT(saveConn()));
+
+    /*Server-form*/	
+    lblServer = new QLabel("Server:",this);
+    lblServer->setGeometry(10,5,150,15);
+    txtServer = new QLineEdit("",this);
+    txtServer->setGeometry(10,23,150,20);
+    /*Databas-form*/
+    lblData = new QLabel("Databas:",this);
+    lblData->setGeometry(10,46,150,15);
+    txtData = new QLineEdit("",this);
+    txtData->setGeometry(10,66,150,20);   
+    /*User-form*/
+    lblUser = new QLabel("Anv‰ndarnamn:",this);
+    lblUser->setGeometry(10,88,150,15);
+    txtUser = new QLineEdit("",this);
+    txtUser->setGeometry(10,106,150,20);	
+    /*User-form*/
+    lblPass = new QLabel("Lˆsenord:",this);
+    lblPass->setGeometry(10,128,150,15);
+    txtPass = new QLineEdit("",this);
+    txtPass->setGeometry(10,146,150,20);
+
+    /*frmSettings-property*/
+    setWindowTitle(tr("Inst‰llningar"));
+    setGeometry(100,100,300,300);
+
+    init();	
+    
+}
+
+void frmSettings::exit()
+{
+    
+}
+
+void frmSettings::init()
+{
+
+QString settings[10];
+int i=0;
+
+ 
+      QFile file("output");
+        if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+            return;
+	QTextStream in(&file);
+        while (!file.atEnd()) 
+	{
+	 i++;
+	 QString content=in.readLine(1500);
+            settings[i]=content;
+       	}
+
+    
+    txtServer->setText( settings[1] );
+    txtData->setText( settings[2] ); 	
+    txtUser->setText( settings[3] );
+    txtPass->setText( settings[4] );
+
+    //qWarning( ts.read() );
+
+}
+
+void frmSettings::showSettings()
+{
+    //qWarning("Ladda inst‰llningarna")
+    lblServer->show();
+}
+
+void frmSettings::testConn()
+{
+    QSqlDatabase db = QSqlDatabase::addDatabase( "QMYSQL" );
+    db.setHostName(txtServer->text());
+    db.setDatabaseName(txtData->text());
+    db.setUserName(txtUser->text());
+    db.setPassword(txtPass->text());
+ bool ok = db.open();
+    
+	if(ok==false) { 
+	QMessageBox::warning(this, "Testar anslutning","Anslutningen misslyckades"); 
+	} else {
+    
+	QMessageBox::information(this, "Testar anslutning","Anslutningen lyckades");
+	}
+	
+}
+
+void frmSettings::saveConn()
+{
+    QFile data("output");
+    if (data.open(QFile::WriteOnly | QFile::Truncate)) 
+    {
+        QTextStream out(&data);
+        out << txtServer->text() << endl << txtData->text() << endl << txtUser->text() << endl << txtPass->text() << endl;
+
+    }
+
+}
+
+/*
+Tribok 0.0.0.5
+----------------
+Coded by Joel Mandell and Jonas Bjˆrk
+*/
+#include <QApplication>
+
+#include "mainwindow.h"
+
+
+int main(int argc, char *argv[])
+{
+ QApplication app(argc, argv);
+ MainWindow mainWin;
+    
+ mainWin.show();
+ return app.exec();
+}
+#include <QtGui>
+#include <QMessageBox>
+#include "mainwindow.h"
+#include "frmSettings.h"
+#include "frmLoadData.h"
+#include "frmAbout.h"
+
+QString guideText[3];
+QString guideTitle[3];
+int gID=0;
+
+MainWindow::MainWindow()
+{
+
+ QMenu menu(this);
+ 
+ /*Arkiv meny widget*/
+ mnuFile = menuBar()->addMenu(tr("&Arkiv"));
+ actNew = new QAction(tr("&Nytt projekt"), this);
+ actOpen = new QAction(tr("&÷ppna projekt"), this);
+ actSettings = new QAction(tr("&Inst‰llningar"), this);
+ mnuFile->addAction(actNew);
+ mnuFile->addAction(actOpen);
+ mnuFile->addAction(actSettings);
+  connect(actSettings, SIGNAL(triggered()), this, SLOT(showSettings()));
+  connect(actOpen, SIGNAL(triggered()), this, SLOT(openData()));
+  
+ /*Help meny widget*/ 
+ mnuHelp = menuBar()->addMenu(tr("&Hj‰lp"));
+ actDoc = new QAction(tr("Dokumentation"), this);
+ actNewbeeG = new QAction(tr("Nybˆrjar guide"), this);
+ actAbout = new QAction(tr("Om tribok"), this);
+ mnuHelp->addAction(actDoc);
+ mnuHelp->addAction(actNewbeeG);
+ mnuHelp->addAction(actAbout);
+  connect(actAbout, SIGNAL(triggered()), this, SLOT(showAbout()));
+  
+ /*MainWindow widgets*/
+  
+ QFile file(".config/first");
+ if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+   return;
+   
+ QString firstCFG;
+  QTextStream fCFG(&file);
+   while (!file.atEnd()) 
+   {
+     firstCFG=fCFG.readLine();
+   }
+   
+ if(firstCFG=="")
+ {
+ 
+ lblHeader = new QLabel("<h1>V‰lkommen till tribok</h1>", this);
+ txtWelcome = new QTextEdit("", this);
+ lblHeader->setGeometry(10,35,400,50); 
+ txtWelcome->setGeometry(10,100,500,150);     
+ cmdPrev = new QPushButton("Fˆre.g",this);
+ cmdPrev->setGeometry(10,280,100,40);
+ cmdPrev->setEnabled(false);
+  connect(cmdPrev, SIGNAL(clicked()),this,SLOT(prevPage()));
+ cmdNext = new QPushButton("N‰sta",this);
+ cmdNext->setGeometry(130,280,100,40);
+  connect(cmdNext, SIGNAL(clicked()),this,SLOT(nextPage()));
+  
+   loadDocumentation();
+   
+ } else {
+
+   
+ }
+ 
+  QFile wData(".config/first");
+  if (wData.open(QFile::WriteOnly | QFile::Truncate)) 
+  {
+   QTextStream out(&wData);
+   out << "done";
+
+  }
+  
+ this->setWindowTitle(tr("Tribok 0.0.0.5"));
+ this->setGeometry(100,100,240,230);
+ this->showMaximized();
+  
+ init();
+
+ 
+}
+
+void MainWindow::init()
+{
+
+ qWarning("Varning tribok har startat :)!");
+
+}
+
+void MainWindow::loadDocumentation()
+{
+guideTitle[0]="<h1>V‰lkommen</h1>";
+guideText[0]="Det ser ut att vara fˆrsta gÂngen du kˆr programmet!\nTveka inte dÂ att gÂ igenom den h‰r <b><u>nybˆrjar</u></b> guiden fˆr att ta \nreda pÂ mˆjligheterna med tribok! <br /><br />Detta program har skapats i Âtanke fˆr fˆretag och privatpersoner sÂ att dom pÂ ett enkelt s‰tt skall hÂlla reda pÂ sin ekonomi.";
+
+guideTitle[1]="<h1>Funktioner</h1>";
+guideText[1]="Tribok bygger pÂ 4 huvudfunktioner.<br /><br /><b><u>Webbuppdatering</u></b>:<br />Fˆretagare reser idag och utvidgar sig mycket d‰rfˆr ‰r detta en viktig del. Vad inneb‰r funktionen Webbuppdatering? Det ‰r ett gr‰nnsnitts skrivet med sprÂket php, som ‰r kopplat mot databasen som tribok anv‰nder sig av. Detta gˆr att man skall kunna uppdatera sin budget via wap, grprs och 3g telefoner. ";
+
+guideTitle[2]="<h1>Lycka till</h1>";
+guideText[2]="<b>Vi hoppas att ni skall trivas med tribok!</<b> ƒr det nÂgot som inte riktigt st‰mmer eller att det intr‰ffar nÂgot fel sÂ <b>var inte snar med att kontakta oss</b> med synpunkter och fˆrslag pÂ fˆrb‰ttringar.";
+ 
+cmdPrev->setEnabled(false);
+txtWelcome->setHtml(guideText[gID]);
+lblHeader->setText(guideTitle[gID]);
+
+}
+
+void MainWindow::showSettings()
+{
+
+ TabDialog fSett;
+ fSett.show(); //This is so the MainWindow widget wouldn't be locked
+ fSett.exec();
+}
+
+void MainWindow::openData()
+{
+ frmLoadData oData;
+ oData.show();
+ oData.exec();
+
+}
+
+void MainWindow::showAbout()
+{
+ frmAbout fAbou;
+ fAbou.show();
+ fAbou.exec();
+
+}
+
+void MainWindow::prevPage()
+{
+ if(gID==0)
+ {
+ cmdNext->setEnabled(true);
+ txtWelcome->setHtml(guideText[0]);
+ lblHeader->setText(guideTitle[0]);
+ cmdPrev->setEnabled(false);
+ } else {
+ cmdPrev->setEnabled(true);
+ cmdNext->setEnabled(true);
+ gID--;
+ txtWelcome->setHtml(guideText[gID]);
+ lblHeader->setText(guideTitle[gID]);
+ }
+ 
+}
+
+void MainWindow::nextPage()
+{
+ gID++;
+ 
+ if(gID==2) //Othervise it will be segmentfault :) 
+ {
+ cmdNext->setEnabled(false);
+ txtWelcome->setHtml(guideText[gID]);
+ lblHeader->setText(guideTitle[gID]);
+ } else {
+ cmdNext->setEnabled(true);
+ cmdPrev->setEnabled(true);
+ txtWelcome->setHtml(guideText[gID]);
+ lblHeader->setText(guideTitle[gID]);
+ }
+
+}
+
+void MainWindow::getData(QString buffer)
+{
+	QMessageBox::information(this,"wow",buffer);
+}
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <QDialog>
+#include <QString>
+#include <QTabWidget>
+#include <QAction>
+#include <QTextEdit>
+#include <QListWidget>
+
+class QTextEdit;
+class QPushButton;
+class QLineEdit;
+class QLabel;
+class QTabWidget;
+class QMenu;
+class QAction;
+class QListWidget;
+
+
+class MainWindow : public QMainWindow
+{
+ Q_OBJECT
+
+public:
+ MainWindow();
+ QTextEdit *txtWelcome;
+public slots:
+
+private slots:
+ virtual void init();
+ virtual void prevPage();
+ virtual void nextPage();
+ virtual void loadDocumentation();
+ virtual void showSettings();
+ virtual void openData();
+ virtual void showAbout();
+ virtual void getData(QString buffer);
+   
+private:
+ QPushButton *cmdPrev;
+ QPushButton *cmdNext;
+ QMenu	*mnuFile;
+ QMenu *mnuWindows; 
+ QMenu *mnuHelp; 
+ QAction *actNew;
+ QAction *actOpen;
+ QAction *actSettings;
+ QAction *actNewbeeG;
+ QAction *actDoc;
+ QAction *actAbout;
+ 
+ QLabel *lblHeader;
+};
+
+class frmLoadData : public QDialog
+{
+ Q_OBJECT
+public:
+ frmLoadData();
+
+private slots:
+ virtual void init();
+ virtual void bytN();
+ virtual void loadPro();
+ private:
+ QPushButton *cmdLoad; 
+ QListWidget *proFiles;
+ QListWidgetItem *IproFiles;
+
+
+};
+
+class TabDialog : public QDialog
+{
+ Q_OBJECT
+
+ public:
+  TabDialog(QWidget *parent = 0);
+
+ private:
+  QTabWidget *tabWidget;
+
+    };
+
+class databasTab : public QWidget
+{
+ Q_OBJECT
+
+ public:
+  databasTab(QWidget *parent = 0);
+ private slots:
+  virtual void init();
+  virtual void showSettings();
+  virtual void testConn();
+  virtual void saveConn();
+  virtual void exit();
+ private:
+  QTabWidget *tabWidget;
+  QPushButton *cmdTestConn; 
+  QPushButton *cmdSaveSettings; 
+  QLineEdit *txtData;
+  QLabel *lblData;
+  QLineEdit *txtServer;
+  QLabel *lblServer;
+  QLineEdit *txtUser;
+  QLabel *lblUser;
+  QLineEdit *txtPass;
+  QLabel *lblPass;
+
+};
+    
+class updateTab : public QWidget
+{
+ Q_OBJECT
+
+ public:
+  updateTab(QWidget *parent = 0);
+ private slots:
+ 
+ private:
+ QTabWidget *tabWidget;
+
+};
+
+class layoutTab : public QWidget
+{
+ Q_OBJECT
+
+ public:
+  layoutTab(QWidget *parent = 0);
+ private slots:
+ 
+ private:
+ QTabWidget *tabWidget;
+
+};
+
+class frmAbout : public QDialog
+{
+ Q_OBJECT
+ 
+ public:
+  frmAbout(QWidget *parent = 0);
+ private slots:
+ virtual void init();
+ private:
+ QTextEdit *txtAbout;
+ 
+};
+
+#endif
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <QDialog>
+#include <QString>
+#include <QTabWidget>
+
+class QTextEdit;
+class QPushButton;
+class QLineEdit;
+class QLabel;
+class QTabWidget;
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    MainWindow();
+public slots:
+
+virtual void close();
+
+private slots:
+virtual void init();
+virtual void showSettings();
+virtual void loadData();
+
+private:
+   
+    QPushButton *cmdSettings; 
+    QPushButton *cmdLoad;
+};
+
+class frmSettings : public QDialog
+{
+Q_OBJECT
+public:
+frmSettings(QWidget *parent = 0);
+
+private slots:
+virtual void init();
+virtual void showSettings();
+virtual void testConn();
+virtual void saveConn();
+virtual void exit();
+private:
+	
+    QPushButton *cmdTestConn; 
+    QPushButton *cmdSaveSettings; 
+    QLineEdit *txtData;
+    QLabel *lblData;
+    QLineEdit *txtServer;
+    QLabel *lblServer;
+    QLineEdit *txtUser;
+    QLabel *lblUser;
+    QLineEdit *txtPass;
+    QLabel *lblPass;
+};
+
+class frmLoadData : public QDialog
+{
+Q_OBJECT
+public:
+frmLoadData();
+
+private slots:
+virtual void init();
+virtual void bytN();
+private:
+    QPushButton *cmdLoad; 
+
+
+};
+
+ class TabDialog : public QDialog
+    {
+        Q_OBJECT
+
+    public:
+        TabDialog(QWidget *parent = 0);
+
+    private:
+        QTabWidget *tabWidget;
+
+    };
+
+ class GeneralTab : public QWidget
+    {
+        Q_OBJECT
+
+    public:
+        GeneralTab(QWidget *parent = 0);
+    private slots:
+    virtual void init();
+virtual void showSettings();
+virtual void testConn();
+virtual void saveConn();
+virtual void exit();
+    private:
+        QTabWidget *tabWidget;
+	    QPushButton *cmdTestConn; 
+    QPushButton *cmdSaveSettings; 
+    QLineEdit *txtData;
+    QLabel *lblData;
+    QLineEdit *txtServer;
+    QLabel *lblServer;
+    QLineEdit *txtUser;
+    QLabel *lblUser;
+    QLineEdit *txtPass;
+    QLabel *lblPass;
+
+    };
+
+
+
+#endif
+/****************************************************************************
+** Meta object code from reading C++ file 'mainwindow.h'
+**
+** Created: tor mar 31 12:24:38 2005
+**      by: The Qt Meta Object Compiler version 55 (Qt 4.0.0-b2-snapshot-20050318)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "mainwindow.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'mainwindow.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 55
+#error "This file was generated using the moc from 4.0.0-b2-snapshot-20050318. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+static const uint qt_meta_data_MainWindow[] = {
+
+ // content:
+       1,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   10, // members
+       0,    0, // properties
+       0,    0, // enums/sets
+
+ // slots: signature, parameters, type, tag, flags
+      12,   11,   11,   11, 0x0a,
+      20,   11,   11,   11, 0x08,
+      27,   11,   11,   11, 0x08,
+      42,   11,   11,   11, 0x08,
+      53,   11,   11,   11, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_MainWindow[] = {
+    "MainWindow\0\0close()\0init()\0showSettings()\0openData()\0showAbout()\0"
+};
+
+const QMetaObject MainWindow::staticMetaObject = {
+    { &QMainWindow::staticMetaObject, qt_meta_stringdata_MainWindow,
+      qt_meta_data_MainWindow, 0 }
+};
+
+const QMetaObject *MainWindow::metaObject() const
+{
+    return &staticMetaObject;
+}
+
+void *MainWindow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_MainWindow))
+	return static_cast<void*>(const_cast<MainWindow*>(this));
+    return QMainWindow::qt_metacast(_clname);
+}
+
+int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMember) {
+        switch (_id) {
+        case 0: close(); break;
+        case 1: init(); break;
+        case 2: showSettings(); break;
+        case 3: openData(); break;
+        case 4: showAbout(); break;
+        }
+        _id -= 5;
+    }
+    return _id;
+}
+static const uint qt_meta_data_frmLoadData[] = {
+
+ // content:
+       1,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       3,   10, // members
+       0,    0, // properties
+       0,    0, // enums/sets
+
+ // slots: signature, parameters, type, tag, flags
+      13,   12,   12,   12, 0x08,
+      20,   12,   12,   12, 0x08,
+      27,   12,   12,   12, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_frmLoadData[] = {
+    "frmLoadData\0\0init()\0bytN()\0loadPro()\0"
+};
+
+const QMetaObject frmLoadData::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_frmLoadData,
+      qt_meta_data_frmLoadData, 0 }
+};
+
+const QMetaObject *frmLoadData::metaObject() const
+{
+    return &staticMetaObject;
+}
+
+void *frmLoadData::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_frmLoadData))
+	return static_cast<void*>(const_cast<frmLoadData*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int frmLoadData::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMember) {
+        switch (_id) {
+        case 0: init(); break;
+        case 1: bytN(); break;
+        case 2: loadPro(); break;
+        }
+        _id -= 3;
+    }
+    return _id;
+}
+static const uint qt_meta_data_TabDialog[] = {
+
+ // content:
+       1,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // members
+       0,    0, // properties
+       0,    0, // enums/sets
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_TabDialog[] = {
+    "TabDialog\0"
+};
+
+const QMetaObject TabDialog::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_TabDialog,
+      qt_meta_data_TabDialog, 0 }
+};
+
+const QMetaObject *TabDialog::metaObject() const
+{
+    return &staticMetaObject;
+}
+
+void *TabDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_TabDialog))
+	return static_cast<void*>(const_cast<TabDialog*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int TabDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_databasTab[] = {
+
+ // content:
+       1,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   10, // members
+       0,    0, // properties
+       0,    0, // enums/sets
+
+ // slots: signature, parameters, type, tag, flags
+      12,   11,   11,   11, 0x08,
+      19,   11,   11,   11, 0x08,
+      34,   11,   11,   11, 0x08,
+      45,   11,   11,   11, 0x08,
+      56,   11,   11,   11, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_databasTab[] = {
+    "databasTab\0\0init()\0showSettings()\0testConn()\0saveConn()\0exit()\0"
+};
+
+const QMetaObject databasTab::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_databasTab,
+      qt_meta_data_databasTab, 0 }
+};
+
+const QMetaObject *databasTab::metaObject() const
+{
+    return &staticMetaObject;
+}
+
+void *databasTab::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_databasTab))
+	return static_cast<void*>(const_cast<databasTab*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int databasTab::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMember) {
+        switch (_id) {
+        case 0: init(); break;
+        case 1: showSettings(); break;
+        case 2: testConn(); break;
+        case 3: saveConn(); break;
+        case 4: exit(); break;
+        }
+        _id -= 5;
+    }
+    return _id;
+}
+static const uint qt_meta_data_updateTab[] = {
+
+ // content:
+       1,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // members
+       0,    0, // properties
+       0,    0, // enums/sets
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_updateTab[] = {
+    "updateTab\0"
+};
+
+const QMetaObject updateTab::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_updateTab,
+      qt_meta_data_updateTab, 0 }
+};
+
+const QMetaObject *updateTab::metaObject() const
+{
+    return &staticMetaObject;
+}
+
+void *updateTab::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_updateTab))
+	return static_cast<void*>(const_cast<updateTab*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int updateTab::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_layoutTab[] = {
+
+ // content:
+       1,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // members
+       0,    0, // properties
+       0,    0, // enums/sets
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_layoutTab[] = {
+    "layoutTab\0"
+};
+
+const QMetaObject layoutTab::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_layoutTab,
+      qt_meta_data_layoutTab, 0 }
+};
+
+const QMetaObject *layoutTab::metaObject() const
+{
+    return &staticMetaObject;
+}
+
+void *layoutTab::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_layoutTab))
+	return static_cast<void*>(const_cast<layoutTab*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int layoutTab::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_frmAbout[] = {
+
+ // content:
+       1,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   10, // members
+       0,    0, // properties
+       0,    0, // enums/sets
+
+ // slots: signature, parameters, type, tag, flags
+      10,    9,    9,    9, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_frmAbout[] = {
+    "frmAbout\0\0init()\0"
+};
+
+const QMetaObject frmAbout::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_frmAbout,
+      qt_meta_data_frmAbout, 0 }
+};
+
+const QMetaObject *frmAbout::metaObject() const
+{
+    return &staticMetaObject;
+}
+
+void *frmAbout::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_frmAbout))
+	return static_cast<void*>(const_cast<frmAbout*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int frmAbout::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMember) {
+        switch (_id) {
+        case 0: init(); break;
+        }
+        _id -= 1;
+    }
+    return _id;
+}
+localhost
+
+
+
+/*
+ //query.exec("SELECT NAME, ID FROM STAFF");
+  QSqlQuery query("SELECT foretag FROM namn");
+  QString fil;
+    fil = query.value(0).toString();
+   // qWarning(fil+"\n");*/
+/* if( !db->open() )
+ {
+  qWarning("Database not connected");
+ } else
+ {
+  qWarning("Database succesfully connected");
+ }
+*/
+<?xml version = '1.0'?>
+<kdevelop>
+  <general>
+    <author>Joel Mandell aka dikatlon</author>
+    <email>joelmandell@openzource.org</email>
+    <version>$VERSION$</version>
+    <projectmanagement>KDevTrollProject</projectmanagement>
+    <primarylanguage>C++</primarylanguage>
+    <keywords>
+      <keyword>Qt</keyword>
+    </keywords>
+    <projectdirectory>.</projectdirectory>
+    <absoluteprojectpath>false</absoluteprojectpath>
+    <description/>
+    <ignoreparts/>
+    <secondaryLanguages/>
+  </general>
+  <kdevfileview>
+    <groups>
+      <group pattern="*.cpp;*.cxx;*.h" name="Sources" />
+      <group pattern="*.ui" name="User Interface" />
+      <group pattern="*.png" name="Icons" />
+      <group pattern="*" name="Others" />
+      <hidenonprojectfiles>false</hidenonprojectfiles>
+      <hidenonlocation>false</hidenonlocation>
+    </groups>
+    <tree>
+      <hidepatterns>*.o,*.lo,CVS</hidepatterns>
+      <hidenonprojectfiles>false</hidenonprojectfiles>
+    </tree>
+  </kdevfileview>
+  <kdevdoctreeview>
+    <ignoretocs>
+      <toc>bash</toc>
+      <toc>bash_bugs</toc>
+      <toc>clanlib</toc>
+      <toc>w3c-dom-level2-html</toc>
+      <toc>fortran_bugs_gcc</toc>
+      <toc>gnome1</toc>
+      <toc>gnustep</toc>
+      <toc>gtk</toc>
+      <toc>gtk_bugs</toc>
+      <toc>haskell</toc>
+      <toc>haskell_bugs_ghc</toc>
+      <toc>java_bugs_gcc</toc>
+      <toc>java_bugs_sun</toc>
+      <toc>kde2book</toc>
+      <toc>opengl</toc>
+      <toc>pascal_bugs_fp</toc>
+      <toc>php</toc>
+      <toc>php_bugs</toc>
+      <toc>perl</toc>
+      <toc>perl_bugs</toc>
+      <toc>python</toc>
+      <toc>python_bugs</toc>
+      <toc>qt-kdev3</toc>
+      <toc>ruby</toc>
+      <toc>ruby_bugs</toc>
+      <toc>sdl</toc>
+      <toc>stl</toc>
+      <toc>w3c-svg</toc>
+      <toc>sw</toc>
+      <toc>w3c-uaag10</toc>
+      <toc>wxwidgets_bugs</toc>
+    </ignoretocs>
+    <ignoredoxygen>
+      <toc>KDE Libraries (Doxygen)</toc>
+    </ignoredoxygen>
+  </kdevdoctreeview>
+  <kdevdebugger>
+    <general>
+      <dbgshell/>
+      <programargs/>
+      <gdbpath/>
+      <configGdbScript/>
+      <runShellScript/>
+      <runGdbScript/>
+      <breakonloadinglibs>true</breakonloadinglibs>
+      <separatetty>false</separatetty>
+      <floatingtoolbar>false</floatingtoolbar>
+    </general>
+    <display>
+      <staticmembers>false</staticmembers>
+      <demanglenames>true</demanglenames>
+      <outputradix>10</outputradix>
+    </display>
+  </kdevdebugger>
+  <kdevfilecreate>
+    <useglobaltypes>
+      <type ext="ui" />
+      <type ext="cpp" />
+      <type ext="h" />
+    </useglobaltypes>
+  </kdevfilecreate>
+  <kdevtrollproject>
+    <general>
+      <activedir></activedir>
+    </general>
+    <run>
+      <directoryradio>executable</directoryradio>
+      <customdirectory>/</customdirectory>
+      <mainprogram/>
+      <programargs/>
+      <terminal>false</terminal>
+      <autocompile>true</autocompile>
+      <envvars/>
+    </run>
+    <make>
+      <abortonerror>false</abortonerror>
+      <numberofjobs>1</numberofjobs>
+      <dontact>false</dontact>
+      <makebin/>
+      <prio>0</prio>
+      <envvars/>
+    </make>
+  </kdevtrollproject>
+  <cppsupportpart>
+    <filetemplates>
+      <interfacesuffix>.h</interfacesuffix>
+      <implementationsuffix>.cpp</implementationsuffix>
+    </filetemplates>
+  </cppsupportpart>
+  <kdevcppsupport>
+    <codecompletion>
+      <includeGlobalFunctions>true</includeGlobalFunctions>
+      <includeTypes>true</includeTypes>
+      <includeEnums>true</includeEnums>
+      <includeTypedefs>false</includeTypedefs>
+      <automaticCodeCompletion>true</automaticCodeCompletion>
+      <automaticArgumentsHint>true</automaticArgumentsHint>
+      <automaticHeaderCompletion>true</automaticHeaderCompletion>
+      <codeCompletionDelay>250</codeCompletionDelay>
+      <argumentsHintDelay>400</argumentsHintDelay>
+      <headerCompletionDelay>250</headerCompletionDelay>
+    </codecompletion>
+    <references/>
+  </kdevcppsupport>
+</kdevelop>
+    P C S         ` / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / M a k e f i l eˇˇˇˇ  º   d / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m A b o u t . hˇˇˇˇ  \   j / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m L o a d D a t a . hˇˇˇˇ  ®   ` / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n . c p pˇˇˇˇ  ò   l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p pˇˇˇˇ  D   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . hˇˇˇˇ  ò      ` / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / M a k e f i l eˇˇˇˇ                                                          d / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m A b o u t . hˇˇˇˇ                                          f r m A b o u t   d / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m A b o u t . h                    f r m A b o u t              p a r e n tˇˇˇˇ                    Q W i d g e t *ˇˇˇˇˇˇˇˇ       i n i t   d / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m A b o u t . h                    f r m A b o u t            v o i d                      j / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m L o a d D a t a . hˇˇˇˇ                                          b y t N   j / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m L o a d D a t a . h   :       <          f r m L o a d D a t a            v o i d       f r m L o a d D a t a   j / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m L o a d D a t a . h                    f r m L o a d D a t a.at     ˇˇˇˇ       i n i t   j / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / f r m L o a d D a t a . h          8          f r m L o a d D a t a _          v o i d                      ` / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n . c p pˇˇˇˇ                                      m a i n   ` / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n . c p p   
+                            a r g cˇˇˇˇ                    i n tˇˇˇˇ       a r g v [ ]ˇˇˇˇ                   
+ c h a r *ˇˇˇˇ    i n t          m a i n   ` / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n . c p p   
+                            a r g cˇˇˇˇ                    i n tˇˇˇˇ       a r g v [ ]ˇˇˇˇ                   
+ c h a r *ˇˇˇˇ    i n t                      l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p pˇˇˇˇ                                          M a i n W i n d o w   l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p p          -          M a i n W i n d o wc.w     ˇˇˇˇ      
+ c l o s e   l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p p   M       P          M a i n W i n d o w            v o i d       i n i t   l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p p   /       3          M a i n W i n d o wk»         v o i d       o p e n D a t a   l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p p   =       C          M a i n W i n d o wA¿ö         v o i d       s h o w A b o u t   l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p p   E       K          M a i n W i n d o w            v o i d       s h o w S e t t i n g s   l / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . c p p   5       ;          M a i n W i n d o wc.w         v o i d                      h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . hˇˇˇˇ                                  M a i n W i n d o w   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h          1              Q M a i n W i n d o w              M a i n W i n d o w   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h                   M a i n W i n d o wh.w     ˇˇˇˇ      
+ c l o s e   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h                   M a i n W i n d o w           v o i d       i n i t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h                     M a i n W i n d o w{ Ü        v o i d       o p e n D a t a   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   "      "          M a i n W i n d o w[|        v o i d       s h o w A b o u t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   #      #          M a i n W i n d o w           v o i d       s h o w S e t t i n g s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   !      !          M a i n W i n d o w           v o i d              a c t A b o u t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   .   	   .              Q A c t i o n *       a c t D o c   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   -   	   -              Q A c t i o n *       a c t N e w   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   )   	   )              Q A c t i o n *       a c t N e w b e e G   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   ,   	   ,              Q A c t i o n *       a c t O p e n   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   *   	   *              Q A c t i o n *       a c t S e t t i n g s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   +   	   +              Q A c t i o n *       l b l H e a d e r   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   0      0              Q L a b e l *       m n u F i l e   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   &      &              Q M e n u *       m n u H e l p   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   (      (              Q M e n u *       m n u W i n d o w s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   '      '              Q M e n u *       t x t W e l c o m e   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h                        Q T e x t E d i t *               T a b D i a l o g   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   D       N              Q D i a l o g              T a b D i a l o g   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   I      I           T a b D i a l o g              p a r e n tˇˇˇˇ                    Q W i d g e t *ˇˇˇˇˇˇˇˇ              t a b W i d g e t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   L      L              Q T a b W i d g e t *               d a t a b a s T a b   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   P       i              Q W i d g e t              d a t a b a s T a b   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   U      U   !       d a t a b a s T a b              p a r e n tˇˇˇˇ                    Q W i d g e t *ˇˇˇˇˇˇˇˇ       e x i t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   [      [          d a t a b a s T a bõ‚        v o i d       i n i t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   W      W          d a t a b a s T a b•oÜ        v o i d       s a v e C o n n   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   Z      Z          d a t a b a s T a bùsÜ        v o i d       s h o w S e t t i n g s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   X      X          d a t a b a s T a b•:Ü        v o i d       t e s t C o n n   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   Y      Y          d a t a b a s T a b           v o i d              c m d S a v e S e t t i n g s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   _      _              Q P u s h B u t t o n *       c m d T e s t C o n n   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   ^      ^              Q P u s h B u t t o n *       l b l D a t a   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   a   	   a              Q L a b e l *       l b l P a s s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   g   	   g              Q L a b e l *       l b l S e r v e r   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   c   	   c              Q L a b e l *       l b l U s e r   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   e   	   e              Q L a b e l *       t a b W i d g e t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   ]      ]              Q T a b W i d g e t *       t x t D a t a   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   `      `              Q L i n e E d i t *       t x t P a s s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   f      f              Q L i n e E d i t *       t x t S e r v e r   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   b      b              Q L i n e E d i t *       t x t U s e r   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   d      d              Q L i n e E d i t *               f r m A b o u t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   Ö       ê              Q D i a l o g              f r m A b o u t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   ä      ä          f r m A b o u tˇˇˇÄ          p a r e n tˇˇˇˇ                    Q W i d g e t *ˇˇˇˇˇˇˇˇ       i n i t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   å      å          f r m A b o u tˇˇˇÜ        v o i d              t x t A b o u t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   é      é              Q T e x t E d i t *               f r m L o a d D a t a   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   3       B              Q D i a l o g              b y t N   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   ;      ;          f r m L o a d D a t a@∆JÜ        v o i d       f r m L o a d D a t a   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   7      7          f r m L o a d D a t ah.w     ˇˇˇˇ       i n i t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   :      :          f r m L o a d D a t abóÜ        v o i d              I p r o F i l e s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   ?      ?               Q L i s t W i d g e t I t e m *       c m d L o a d   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   =      =              Q P u s h B u t t o n *       p r o F i l e s   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   >      >              Q L i s t W i d g e t *               l a y o u t T a b   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   x       É              Q W i d g e t              l a y o u t T a b   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   }      }           l a y o u t T a bˇˇˇÄ          p a r e n tˇˇˇˇ                    Q W i d g e t *ˇˇˇˇˇˇˇˇ              t a b W i d g e t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   Å      Å              Q T a b W i d g e t *               u p d a t e T a b   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   k       v              Q W i d g e t              u p d a t e T a b   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   p      p           u p d a t e T a bˇˇˇÄ          p a r e n tˇˇˇˇ                    Q W i d g e t *ˇˇˇˇˇˇˇˇ              t a b W i d g e t   h / h o m e / d i k a t l o n / P r o g r a m m e r i n g / C + + / t r i b o k / m a i n w i n d o w . h   t      t              Q T a b W i d g e t *                                <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <DocsAndViews NumberOfDocuments="7" >
+  <Doc0 NumberOfViews="1" URL="file:/home/dikatlon/Programmering/C%2B%2B/tribok/frmLoadData.h" >
+   <View0 line="42" Type="Source" />
+  </Doc0>
+  <Doc1 NumberOfViews="1" URL="file:/home/dikatlon/Programmering/C%2B%2B/tribok/frmSettings.h" >
+   <View0 line="63" Type="Source" />
+  </Doc1>
+  <Doc2 NumberOfViews="1" URL="file:/home/dikatlon/Programmering/C%2B%2B/tribok/frmAbout.h" >
+   <View0 line="0" Type="Source" />
+  </Doc2>
+  <Doc3 NumberOfViews="1" URL="file:/home/dikatlon/Programmering/C%2B%2B/tribok/main.cpp" >
+   <View0 line="0" Type="Source" />
+  </Doc3>
+  <Doc4 NumberOfViews="1" URL="file:/home/dikatlon/Programmering/C%2B%2B/tribok/mainwindow.cpp" >
+   <View0 line="40" Type="Source" />
+  </Doc4>
+  <Doc5 NumberOfViews="1" URL="file:/home/dikatlon/Programmering/C%2B%2B/tribok/mainwindow.h" >
+   <View0 line="45" Type="Source" />
+  </Doc5>
+  <Doc6 NumberOfViews="1" URL="file:/home/dikatlon/Programmering/C%2B%2B/tribok/Makefile" >
+   <View0 line="2" Type="Source" />
+  </Doc6>
+ </DocsAndViews>
+ <pluginList>
+  <kdevvalgrind>
+   <executable path="" params="" />
+   <valgrind path="" params="" />
+   <calltree path="" params="" />
+   <kcachegrind path="" />
+  </kdevvalgrind>
+  <kdevbookmarks>
+   <bookmarks/>
+  </kdevbookmarks>
+  <kdevsubversion>
+   <subversion recurseresolve="1" recurserelocate="1" recursemerge="1" recursecommit="1" base="" recursepropget="1" recurseswitch="1" recurseupdate="1" recursepropset="1" recursediff="1" recurserevert="1" forcemove="1" recursecheckout="1" forceremove="1" recurseadd="1" recurseproplist="1" forcemerge="1" />
+  </kdevsubversion>
+  <kdevdebugger>
+   <breakpointList/>
+  </kdevdebugger>
+ </pluginList>
+</KDevPrjSession>
+# Fil skapad av Kdevelops qmake-hanterare. 
+# ------------------------------------------- 
+# Delkatalog relativ till projektets huvudkatalog: .
+# MÂlet ‰r ett program: 
+
+HEADERS += mainwindow.h \
+           frmAbout.h 
+SOURCES += main.cpp \
+           mainwindow.cpp 
+TEMPLATE = app
+INCLUDEPATH += .

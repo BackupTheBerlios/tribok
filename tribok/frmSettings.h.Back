@@ -1,0 +1,131 @@
+#include <QtGui>
+#include <QMessageBox>
+#include <QDialog>
+#include <QtSql/QSqlDatabase>    // NOTERA DENNA
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlDriver>
+#include <QString>
+
+
+    TabDialog::TabDialog(const QString &fileName, QWidget *parent)
+        : QDialog(parent)
+    {
+        QFileInfo fileInfo(fileName);
+
+        tabWidget = new QTabWidget(this);
+        tabWidget->addTab(new GeneralTab(fileInfo), tr("General"));
+        tabWidget->addTab(new PermissionsTab(fileInfo), tr("Permissions"));
+        tabWidget->addTab(new ApplicationsTab(fileInfo), tr("Applications"));
+    }
+
+frmSettings::frmSettings(QWidget *parent): QDialog(parent)
+{
+
+    //QString connSettings[0]="null";	
+    cmdTestConn = new QPushButton("Testa anslutning",this);
+    	
+    cmdTestConn->setGeometry(10,180,150,30);
+    connect(cmdTestConn, SIGNAL(clicked()),this, SLOT(testConn()));
+
+    cmdSaveSettings = new QPushButton("Spara",this);
+    cmdSaveSettings->setGeometry(10,210,150,30);
+    connect(cmdSaveSettings, SIGNAL(clicked()),this, SLOT(saveConn()));
+
+    /*Server-form*/	
+    lblServer = new QLabel("Server:",this);
+    lblServer->setGeometry(10,5,150,15);
+    txtServer = new QLineEdit("",this);
+    txtServer->setGeometry(10,23,150,20);
+    /*Databas-form*/
+    lblData = new QLabel("Databas:",this);
+    lblData->setGeometry(10,46,150,15);
+    txtData = new QLineEdit("",this);
+    txtData->setGeometry(10,66,150,20);   
+    /*User-form*/
+    lblUser = new QLabel("Användarnamn:",this);
+    lblUser->setGeometry(10,88,150,15);
+    txtUser = new QLineEdit("",this);
+    txtUser->setGeometry(10,106,150,20);	
+    /*User-form*/
+    lblPass = new QLabel("Lösenord:",this);
+    lblPass->setGeometry(10,128,150,15);
+    txtPass = new QLineEdit("",this);
+    txtPass->setGeometry(10,146,150,20);
+
+    /*frmSettings-property*/
+    setWindowTitle(tr("Inställningar"));
+    setGeometry(100,100,300,300);
+
+    init();	
+    
+}
+
+void frmSettings::exit()
+{
+    
+}
+
+void frmSettings::init()
+{
+
+QString settings[10];
+int i=0;
+
+ 
+      QFile file("output");
+        if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
+            return;
+	QTextStream in(&file);
+        while (!file.atEnd()) 
+	{
+	 i++;
+	 QString content=in.readLine(1500);
+            settings[i]=content;
+       	}
+
+    
+    txtServer->setText( settings[1] );
+    txtData->setText( settings[2] ); 	
+    txtUser->setText( settings[3] );
+    txtPass->setText( settings[4] );
+
+    //qWarning( ts.read() );
+
+}
+
+void frmSettings::showSettings()
+{
+    //qWarning("Ladda inställningarna")
+    lblServer->show();
+}
+
+void frmSettings::testConn()
+{
+    QSqlDatabase db = QSqlDatabase::addDatabase( "QMYSQL" );
+    db.setHostName(txtServer->text());
+    db.setDatabaseName(txtData->text());
+    db.setUserName(txtUser->text());
+    db.setPassword(txtPass->text());
+ bool ok = db.open();
+    
+	if(ok==false) { 
+	QMessageBox::warning(this, "Testar anslutning","Anslutningen misslyckades"); 
+	} else {
+    
+	QMessageBox::information(this, "Testar anslutning","Anslutningen lyckades");
+	}
+	
+}
+
+void frmSettings::saveConn()
+{
+    QFile data("output");
+    if (data.open(QFile::WriteOnly | QFile::Truncate)) 
+    {
+        QTextStream out(&data);
+        out << txtServer->text() << endl << txtData->text() << endl << txtUser->text() << endl << txtPass->text() << endl;
+
+    }
+
+}
+

@@ -1,0 +1,14 @@
+/*
+ //query.exec("SELECT NAME, ID FROM STAFF");
+  QSqlQuery query("SELECT foretag FROM namn");
+  QString fil;
+    fil = query.value(0).toString();
+   // qWarning(fil+"\n");*/
+/* if( !db->open() )
+ {
+  qWarning("Database not connected");
+ } else
+ {
+  qWarning("Database succesfully connected");
+ }
+*/
